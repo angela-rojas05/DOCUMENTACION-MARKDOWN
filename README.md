@@ -130,6 +130,8 @@ $$ A^T = \begin{bmatrix}
 
 # Ejercicio 3: Verifica que (AB)C = A(BC)
 
+Para empezar hay que sacar el resultado de la multiplicación de AB para que despues el resultado se multiplique con C.
+
 $$ A = \begin{bmatrix}
 1 & 2 \\
 3 & 4 
