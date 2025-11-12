@@ -5,7 +5,7 @@
 ## Maestro: Jorge Javier Pedroza Romero
 
 ---
-# Objetivo
+# Objetivo 
 
 Obtener un aprendizaje amplio y claro sobre las matrices, desde sus operaciones básicas hasta comprender los diferentes tipos.
 
@@ -130,8 +130,6 @@ $$ A^T = \begin{bmatrix}
 
 # Ejercicio 3: Verifica que (AB)C = A(BC)
 
-Para empezar hay que sacar el resultado de la multiplicación de AB para que despues el resultado se multiplique con C.
-
 $$ A = \begin{bmatrix}
 1 & 2 \\
 3 & 4 
@@ -144,6 +142,8 @@ $$ A = \begin{bmatrix}
 \end{bmatrix} $$
 
 ### 1) Calcular la matriz de (AB)C
+
+Para empezar hay que sacar el resultado de la multiplicación de AB para que despues el resultado se multiplique con C.
 
 $$ AB = \begin{bmatrix}
 (1\cdot2) + (2\cdot1) & (1\cdot0) + (2\cdot3) \\
