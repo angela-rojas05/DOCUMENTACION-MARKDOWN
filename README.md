@@ -165,7 +165,28 @@ $$ (AB)C = \begin{bmatrix}
 10 & 34
 \end{bmatrix} $$
 
+### 2) Calcular la matriz de A(BC)
 
+$$ BC = \begin{bmatrix}
+(2\cdot1) + (0\cdot0) & (2\cdot1) + (0\cdot2) \\
+(1\cdot1) + (3\cdot0) & (1\cdot1) + (3\cdot2)
+\end{bmatrix} = \begin{bmatrix}
+2 + 0 & 2 + 0 \\
+1 + 0 & 1 + 6
+\end{bmatrix} = \begin{bmatrix}
+2 & 2 \\
+1 & 7
+\end{bmatrix} $$
+$$ A(BC) = \begin{bmatrix}
+(1\cdot2) + (2\cdot1) & (1\cdot2) + (2\cdot7) \\
+(3\cdot2) + (4\cdot1) & (3\cdot2) + (4\cdot7)
+\end{bmatrix} = \begin{bmatrix}
+2 + 2 & 2 + 14 \\
+6 + 4 & 6 + 28
+\end{bmatrix} = \begin{bmatrix}
+4 & 16 \\
+10 & 34
+\end{bmatrix} $$
 
 
 ---
