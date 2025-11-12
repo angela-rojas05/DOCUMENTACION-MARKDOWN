@@ -141,8 +141,29 @@ $$ A = \begin{bmatrix}
 0 & 2
 \end{bmatrix} $$
 
+### 1) Calcular la matriz de (AB)C
 
+$$ AB = \begin{bmatrix}
+(1\cdot2) + (2\cdot1) & (1\cdot0) + (2\cdot3) \\
+(3\cdot2) + (4\cdot1) & (3\cdot0) + (4\cdot3)
+\end{bmatrix} = \begin{bmatrix}
+2 + 2 & 0 + 6 \\
+6 + 4 & 0 + 12
+\end{bmatrix} = \begin{bmatrix}
+4 & 6 \\
+10 & 12
+\end{bmatrix} $$
 
+$$ (AB)C = \begin{bmatrix}
+(4\cdot1) + (6\cdot0) & (4\cdot1) + (6\cdot2) \\
+(10\cdot1) + (12\cdot0) & (10\cdot1) + (12\cdot2)
+\end{bmatrix} = \begin{bmatrix}
+4 + 0 & 4 + 12 \\
+10 + 0 & 10 + 24
+\end{bmatrix} = \begin{bmatrix}
+4 & 16 \\
+10 & 34
+\end{bmatrix} $$
 
 
 
