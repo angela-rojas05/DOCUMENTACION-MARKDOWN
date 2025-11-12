@@ -63,13 +63,6 @@ $$ A = \begin{bmatrix}
 -1 & 3 
 \end{bmatrix} $$
 
-$$ A + B =
-\begin{pmatrix}
-1 + 9 & 2 + 10 & 3 + 11 \\
-4 + 12 & 5 + 13 & 6 + 14 \\
-\end{pmatrix}
-$$
-
 ### a) \( A + B \)
 $$ A + B = \begin{bmatrix}
 2 + 5 & -1 + 2 \\
