@@ -52,23 +52,16 @@ $$ D = \begin{bmatrix}
 Corresponde a una **matriz triangular superior** ya que todos los elementos que se encuentran **por debajo** de la diagonal siempre serán ceros.
 
 ---
-MUESTRA
 
-Calcula la suma de A y B
+# Ejercicio 2: Calcula dada las matrices
 
-$$ A =
-\begin{pmatrix}
-1 & 2 & 3 \\
-4 & 5 & 6 \\
-\end{pmatrix}
-$$
-
-$$ B =
-\begin{pmatrix}
-9 & 10 & 11 \\
-12 & 13 & 14 \\
-\end{pmatrix}
-$$
+$$ A = \begin{bmatrix}
+2 & -1 \\
+3 & 4 
+\end{bmatrix}, \quad B = \begin{bmatrix}
+5 & 2 \\
+-1 & 3 
+\end{bmatrix} $$
 
 $$ A + B =
 \begin{pmatrix}
