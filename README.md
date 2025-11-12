@@ -21,6 +21,16 @@ $$A = \begin{bmatrix}
 
 Esta es una **matriz de identidad** porque en la diagonal principal contiene solo el número 1, mientras que los otros elementos serán el número 0.
 
+### b) 
+
+$$ B = \begin{bmatrix}
+3 & 0 & 0 \\
+0 & -2 & 0 \\
+0 & 0 & 5 
+\end{bmatrix}  $$
+
+La segunda es una **matriz diagonal** debido a que los elementos que estan dentro de ella son números aleatorios por asi decirlo, y el resto siempre serán el número 0.
+
 
 MUESTRA
 
