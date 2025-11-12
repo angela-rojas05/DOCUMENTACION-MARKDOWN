@@ -169,6 +169,8 @@ $$ (AB)C = \begin{bmatrix}
 
 ### 2) Calcular la matriz de A(BC)
 
+Ahora aqui debemos sacar primero el resultado de la multiplicación de BC y la matriz que obtengamos de ahi la vamos a multiplicar por la matriz de A, al final comparamos ambos resultados para saber si son o no iguales.
+
 $$ BC = \begin{bmatrix}
 (2\cdot1) + (0\cdot0) & (2\cdot1) + (0\cdot2) \\
 (1\cdot1) + (3\cdot0) & (1\cdot1) + (3\cdot2)
