@@ -5,7 +5,11 @@
 ## Maestro: Jorge Javier Pedroza Romero
 
 ---
-### Identificación de matrices
+# Objetivo
+
+Obtener un aprendizaje amplio y claro sobre las matrices, desde sus operaciones básicas hasta comprender los diferentes tipos.
+
+---
 
 Matriz identidad, porque la diagonal está compuestos por solo unos y los elementos fuera de la diagonal son ceros.
 
