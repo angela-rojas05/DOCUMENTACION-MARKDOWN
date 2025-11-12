@@ -70,14 +70,64 @@ $$ A + B =
 \end{pmatrix}
 $$
 
-$$ A + B =
-\begin{pmatrix}
-10 & 12 & 14 \\
-16 & 18 & 20 \\
-\end{pmatrix}
-$$
+### a) \( A + B \)
+$$ A + B = \begin{bmatrix}
+2 + 5 & -1 + 2 \\
+3 + (-1) & 4 + 3
+\end{bmatrix} => \begin{bmatrix}
+7 & 1 \\
+2 & 7
+\end{bmatrix} $$
+
+### b) \(2A - B \)
+
+$$ 2A = \begin{bmatrix}
+2(2) & 2(-1) \\
+2(3) & 2(4)
+\end{bmatrix} => \begin{bmatrix}
+4 & -2 \\    
+6 & 8
+\end{bmatrix} $$
+$$ 2A - B = 2 \begin{bmatrix}
+4-5 & -2-2 \\
+6-(-1) & 8-3
+\end{bmatrix} => \begin{bmatrix}
+-1 & -4 \\
+7 & 5
+\end{bmatrix} $$
+
+### c) \( AB \)
+$$ AB = \begin{bmatrix}
+2\cdot5+(-1)\cdot(-1) & 2\cdot2+(-1)\cdot3\\
+3\cdot5+4\cdot(-1)    & 3\cdot2+4\cdot3
+\end{bmatrix} => \begin{bmatrix}
+10 + 1 & 4 - 3\\
+15 - 4 & 6 + 12
+\end{bmatrix} => \begin{bmatrix}
+11 & 1 \\
+11 & 18
+\end{bmatrix} $$
+
+### d) \( BA \)
+$$ BA = \begin{bmatrix}
+(5\cdot2) + (2\cdot3) & (5\cdot-1) + (2\cdot4) \\
+(-1\cdot2) + (3\cdot3) & (-1\cdot-1) + (3\cdot4)
+\end{bmatrix} => \begin{bmatrix}
+10 + 6 & -5 + 8 \\
+-2 + 9 & 1 + 12
+\end{bmatrix} => \begin{bmatrix}
+16 & 3 \\
+7 & 13
+\end{bmatrix} $$
+
+### e) \( A^T \)
+$$ A^T = \begin{bmatrix}
+2 & 3 \\
+-1 & 4
+\end{bmatrix} $$
 
 ---
+
 # OTRO EJERCICIO
 ...
 
