@@ -41,7 +41,17 @@ $$C = \begin{bmatrix}
 
 Esta es una **matriz simétrica** porque las filas se pueden repetir en las columnas, es decir, estan los mismos números acomodados en el mismo orden solo que unos estan en una fila y otros en una columna.
 
+### d)
 
+$$ D = \begin{bmatrix}
+1 & 2 & 3 \\
+0 & 4 & 5 \\
+0 & 0 & 6 
+\end{bmatrix}  $$
+
+Corresponde a una **matriz triangular superior** ya que todos los elementos que se encuentran **por debajo** de la diagonal siempre serán ceros.
+
+---
 MUESTRA
 
 Calcula la suma de A y B
