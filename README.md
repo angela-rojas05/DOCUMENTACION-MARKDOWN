@@ -10,15 +10,17 @@
 Obtener un aprendizaje amplio y claro sobre las matrices, desde sus operaciones básicas hasta comprender los diferentes tipos.
 
 ---
+# Ejercicio 1: Identifica el tipo de cada matriz
 
-Matriz identidad, porque la diagonal está compuestos por solo unos y los elementos fuera de la diagonal son ceros.
+### a) 
 
-$$ A =
-\begin{pmatrix}
+$$A = \begin{bmatrix}
 1 & 0 \\
-0 & 1 \\
-\end{pmatrix}
-$$
+0 & 1 
+\end{bmatrix}$$
+
+Esta es una **matriz de identidad** porque en la diagonal principal contiene solo el número 1, mientras que los otros elementos serán el número 0.
+
 
 MUESTRA
 
