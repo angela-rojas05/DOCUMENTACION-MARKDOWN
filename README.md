@@ -31,6 +31,16 @@ $$ B = \begin{bmatrix}
 
 La segunda es una **matriz diagonal** debido a que los elementos que estan dentro de ella son números aleatorios por asi decirlo, y el resto siempre serán el número 0.
 
+### c)
+
+$$C = \begin{bmatrix}
+2 & 1 & 4 \\
+1 & 3 & 5 \\
+4 & 5 & 6 
+\end{bmatrix}  $$
+
+Esta es una **matriz simétrica** porque las filas se pueden repetir en las columnas, es decir, estan los mismos números acomodados en el mismo orden solo que unos estan en una fila y otros en una columna.
+
 
 MUESTRA
 
