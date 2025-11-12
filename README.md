@@ -1,7 +1,8 @@
-# Tecnológico de Software
-## Materia: Fundamentos de álgebra
-## Alumno: Tanjiro Jesús Hernández López
-## Actividad \#16 - Matrices doc
+# Tecnológico de Softwaare
+## Actividad #16: Documentación de matrices
+## Alumno: Ángela Yaritzi Rojas Brito
+## Asignatura: Fundamentos de álgebra
+## Maestro: Jorge Javier Pedroza Romero
 
 ---
 ### Identificación de matrices
