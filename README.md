@@ -128,9 +128,18 @@ $$ A^T = \begin{bmatrix}
 
 ---
 
-# OTRO EJERCICIO
-...
+# Ejercicio 3: Verifica que (AB)C = A(BC)
 
+$$ A = \begin{bmatrix}
+1 & 2 \\
+3 & 4 
+\end{bmatrix}, \quad B = \begin{bmatrix}
+2 & 0 \\
+1 & 3 
+\end{bmatrix}, \quad C = \begin{bmatrix}
+1 & 1 \\
+0 & 2
+\end{bmatrix} $$
 
 
 
