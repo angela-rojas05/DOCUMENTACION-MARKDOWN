@@ -188,6 +188,9 @@ $$ A(BC) = \begin{bmatrix}
 10 & 34
 \end{bmatrix} $$
 
+### 3) Conclusiones
+
+En base a los resultados obtenidos se puede comprobar que **(AB)C ES IGUAL QUE A(BC)** ya que contienen los mismos elementos, incluso en el mismo orden.
 
 ---
 
