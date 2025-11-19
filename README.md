@@ -279,6 +279,7 @@ Por lo tanto det(AB) **SI ES IGUAL** a det(A) * det(B)
 
 La matriz A es:
 
+A =
 | 2  1 |
 | 1  3 |
 
@@ -300,120 +301,45 @@ Esto confirma la propiedad:
 
 ---
 
+# Ejercicio 5: Dado los vectores u = (3, 2) y v = (1, 4)
 
-$$ G =
+### a) Calcula el área del palalelogramo que forman
+
+1. Pasamos a matriz los vectores
+
+$$ A =
 \begin{pmatrix}
-1 & 0 & 2\\
--1 & 3 & 1\\
-2 & 0 & 1\\
+3 & 2 \\
+1 & 4 \\
 \end{pmatrix}
 $$
 
+2. Sacamos su determinante
+   
+3. Multiplicar: 3 * 4 = 12, 1 * -2 = -2
 
-### c) \( AB \)
-$$ AB = \begin{bmatrix}
-2\cdot5+(-1)\cdot(-1) & 2\cdot2+(-1)\cdot3\\
-3\cdot5+4\cdot(-1)    & 3\cdot2+4\cdot3
-\end{bmatrix} = \begin{bmatrix}
-10 + 1 & 4 - 3\\
-15 - 4 & 6 + 12
-\end{bmatrix} = \begin{bmatrix}
-11 & 1 \\
-11 & 18
-\end{bmatrix} $$
+4. Restamos: 12 - 2 = 10
 
-### d) \( BA \)
-$$ BA = \begin{bmatrix}
-(5\cdot2) + (2\cdot3) & (5\cdot-1) + (2\cdot4) \\
-(-1\cdot2) + (3\cdot3) & (-1\cdot-1) + (3\cdot4)
-\end{bmatrix} = \begin{bmatrix}
-10 + 6 & -5 + 8 \\
--2 + 9 & 1 + 12
-\end{bmatrix} = \begin{bmatrix}
-16 & 3 \\
-7 & 13
-\end{bmatrix} $$
+5. Área es igual a 10
 
-### e) \( A^T \)
-$$ A^T = \begin{bmatrix}
-2 & 3 \\
--1 & 4
-\end{bmatrix} $$
+### b) ¿Cambia el área si intercambias los vectores?
 
----
+No cambia ya que aunque se cambie el signo, el tamaño sigue siendo el mismo.
 
-# Ejercicio 3: Verifica que (AB)C = A(BC)
+Es decir:
 
-$$ A = \begin{bmatrix}
-1 & 2 \\
-3 & 4 
-\end{bmatrix}, \quad B = \begin{bmatrix}
-2 & 0 \\
-1 & 3 
-\end{bmatrix}, \quad C = \begin{bmatrix}
-1 & 1 \\
-0 & 2
-\end{bmatrix} $$
+$$ A =
+\begin{pmatrix}
+1 & 4 \\
+3 & 2 \\
+\end{pmatrix}
+$$
 
-### 1) Calcular la matriz de (AB)C
+Si sacamos su determinante asi, nos da -10, cambia el signo pero no el tamaño.
 
-Para empezar hay que sacar el resultado de la multiplicación de AB para que despues el resultado se multiplique con C.
+### c) ¿Qué representa el signo del determinante?
 
-$$ AB = \begin{bmatrix}
-(1\cdot2) + (2\cdot1) & (1\cdot0) + (2\cdot3) \\
-(3\cdot2) + (4\cdot1) & (3\cdot0) + (4\cdot3)
-\end{bmatrix} = \begin{bmatrix}
-2 + 2 & 0 + 6 \\
-6 + 4 & 0 + 12
-\end{bmatrix} = \begin{bmatrix}
-4 & 6 \\
-10 & 12
-\end{bmatrix} $$
-
-$$ (AB)C = \begin{bmatrix}
-(4\cdot1) + (6\cdot0) & (4\cdot1) + (6\cdot2) \\
-(10\cdot1) + (12\cdot0) & (10\cdot1) + (12\cdot2)
-\end{bmatrix} = \begin{bmatrix}
-4 + 0 & 4 + 12 \\
-10 + 0 & 10 + 24
-\end{bmatrix} = \begin{bmatrix}
-4 & 16 \\
-10 & 34
-\end{bmatrix} $$
-
-### 2) Calcular la matriz de A(BC)
-
-Ahora aqui debemos sacar primero el resultado de la multiplicación de BC y la matriz que obtengamos de ahi la vamos a multiplicar por la matriz de A, al final comparamos ambos resultados para saber si son o no iguales.
-
-$$ BC = \begin{bmatrix}
-(2\cdot1) + (0\cdot0) & (2\cdot1) + (0\cdot2) \\
-(1\cdot1) + (3\cdot0) & (1\cdot1) + (3\cdot2)
-\end{bmatrix} = \begin{bmatrix}
-2 + 0 & 2 + 0 \\
-1 + 0 & 1 + 6
-\end{bmatrix} = \begin{bmatrix}
-2 & 2 \\
-1 & 7
-\end{bmatrix} $$
-$$ A(BC) = \begin{bmatrix}
-(1\cdot2) + (2\cdot1) & (1\cdot2) + (2\cdot7) \\
-(3\cdot2) + (4\cdot1) & (3\cdot2) + (4\cdot7)
-\end{bmatrix} = \begin{bmatrix}
-2 + 2 & 2 + 14 \\
-6 + 4 & 6 + 28
-\end{bmatrix} = \begin{bmatrix}
-4 & 16 \\
-10 & 34
-\end{bmatrix} $$
-
-### 3) Conclusiones
-
-En base a los resultados obtenidos se puede comprobar que **(AB)C ES IGUAL QUE A(BC)** ya que contienen los mismos elementos, incluso en el mismo orden.
-
----
-
-
-
+Principalmente la dirección en que se ingresa el valor.
 
 
 
