@@ -1,4 +1,4 @@
-# Tecnológico de Softwaare
+# Tecnológico de Software
 ## Actividad #18: Documentación de matrices dos
 ## Alumno: Ángela Yaritzi Rojas Brito
 ## Asignatura: Fundamentos de álgebra
@@ -21,11 +21,11 @@ $$ A =
 \end{pmatrix}
 $$
 
-1.- Identifica los elementos de la matriz
-2.- Multiplica los números de la diagonal principal: 5 * 1 = 5
-3.- Multiplica los números de la diagonal secundaria: 3 * (-2) = -6
-4.- Restamos ambos resultados, poniendo el positivo primero: 5 - 6 = -1
-5.- Por lo tanto, el resultado es: det(A) = -1
+1. Identifica los elementos de la matriz
+2. Multiplica los números de la diagonal principal: 5 * 1 = 5
+3. Multiplica los números de la diagonal secundaria: 3 * (-2) = -6
+4. Restamos ambos resultados, poniendo el positivo primero: 5 - 6 = -1
+5. Por lo tanto, el resultado es: det(A) = -1
 
 El determinante puede ser positivo, negativo o cero
 
@@ -38,11 +38,11 @@ $$ B =
 \end{pmatrix}
 $$
 
-1.- Identifica los elementos de la matriz
-2.- Multiplica los números de la diagonal principal: (-1) * (-8) = +8
-3.- Multiplica los números de la diagonal secundaria: 2 * (-4) = -8
-4.- Restamos ambos resultados, poniendo el positivo primero: 8 - 8 = 0
-5.- Por lo tanto, el resultado es: det(B) = 0
+1. Identifica los elementos de la matriz
+2. Multiplica los números de la diagonal principal: (-1) * (-8) = +8
+3. Multiplica los números de la diagonal secundaria: 2 * (-4) = -8
+4. Restamos ambos resultados, poniendo el positivo primero: 8 - 8 = 0
+5. Por lo tanto, el resultado es: det(B) = 0
 
 Si det(A) = 0 , la matriz es singular (no tiene inversa)
 
@@ -55,11 +55,11 @@ $$ C =
 \end{pmatrix}
 $$
 
-1.- Identifica los elementos de la matriz
-2.- Multiplica los números de la diagonal principal: 6 * 3 = 18
-3.- Multiplica los números de la diagonal secundaria: 2 * (-9) = -18
-4.- Restamos ambos resultados, poniendo el positivo primero: 18 - 18 = 0
-5.- Por lo tanto, el resultado es: det(C) = 0
+1. Identifica los elementos de la matriz
+2. Multiplica los números de la diagonal principal: 6 * 3 = 18
+3. Multiplica los números de la diagonal secundaria: 2 * (-9) = -18
+4. Restamos ambos resultados, poniendo el positivo primero: 18 - 18 = 0
+5. Por lo tanto, el resultado es: det(C) = 0
 
 Si det(A) = 0 , la matriz es singular (no tiene inversa)
  
@@ -72,11 +72,11 @@ $$ D =
 \end{pmatrix}
 $$
 
-1.- Identifica los elementos de la matriz
-2.- Multiplica los números de la diagonal principal: 0 * 0 = 0
-3.- Multiplica los números de la diagonal secundaria: (-5) * (5) * (-1) = 25
-4.- Restamos ambos resultados, poniendo el positivo primero: 25 - 0 = 25
-5.- Por lo tanto, el resultado es: det(D) = 25
+1. Identifica los elementos de la matriz
+2. Multiplica los números de la diagonal principal: 0 * 0 = 0
+3. Multiplica los números de la diagonal secundaria: (-5) * (5) * (-1) = 25
+4. Restamos ambos resultados, poniendo el positivo primero: 25 - 0 = 25
+5. Por lo tanto, el resultado es: det(D) = 25
 
 Si det(A) NO ES IGUAL A 0 , la matriz es no singular (tiene inversa)
 
