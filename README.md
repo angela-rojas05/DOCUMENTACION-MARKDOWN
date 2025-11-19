@@ -1,5 +1,5 @@
 # Tecnológico de Softwaare
-## Actividad #16: Documentación de matrices
+## Actividad #18: Documentación de matrices dos
 ## Alumno: Ángela Yaritzi Rojas Brito
 ## Asignatura: Fundamentos de álgebra
 ## Maestro: Jorge Javier Pedroza Romero
@@ -7,7 +7,7 @@
 ---
 # Objetivo 
 
-Obtener un aprendizaje amplio y claro sobre las matrices, desde sus operaciones básicas hasta comprender los diferentes tipos.
+Comprender de manera sólida el concepto de matrices y sus determinantes, incluyendo sus propiedades y la aplicación de operaciones básicas para su cálculo.
 
 ---
 # Ejercicio 1: Identifica el tipo de cada matriz
