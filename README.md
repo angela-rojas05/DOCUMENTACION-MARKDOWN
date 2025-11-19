@@ -146,6 +146,7 @@ $$
 
 5. det(F) = -48
 
+---
 
 # Ejercicio 3: Calcula usando cofactores (expandir por la fila o columna más conveniente) 
 
@@ -201,9 +202,9 @@ $$
 
 6. Juntamos y resolvemos, respetando signos
 
-det(G) = 1(3-0) -0(-1-2) +2(0-6)
-det(G) = 3 - 12
-det(G) = -9
+- det(G) = 1(3-0) - 0(-1-2) + 2(0-6)
+- det(G) = 3 - 12
+- det(G) = -9
 
 ---
 
