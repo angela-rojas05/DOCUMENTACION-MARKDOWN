@@ -147,22 +147,75 @@ $$
 5. det(F) = -48
 
 
-### b) \(2A - B \)
+# Ejercicio 3: Calcula usando cofactores (expandir por la fila o columna más conveniente) 
 
-$$ 2A = \begin{bmatrix}
-2(2) & 2(-1) \\
-2(3) & 2(4)
-\end{bmatrix} = \begin{bmatrix}
-4 & -2 \\    
-6 & 8
-\end{bmatrix} $$
-$$ 2A - B = 2 \begin{bmatrix}
-4-5 & -2-2 \\
-6-(-1) & 8-3
-\end{bmatrix} = \begin{bmatrix}
--1 & -4 \\
-7 & 5
-\end{bmatrix} $$
+### 1.- 
+
+$$ G =
+\begin{pmatrix}
+1 & 0 & 2\\
+-1 & 3 & 1\\
+2 & 0 & 1\\
+\end{pmatrix}
+$$
+
+1. A la primera columna se agrega un símbolo positivo y en la siguiente negativo, asi sucesivamente con todas las columnas.
+   
+2. Tomamos el +1 de la fila 1 y columna 1, tapamos los números que estan debajo de el y tomamos solo los restantes de las filas 2 y 3.
+
+```
+1 | 3 1 |
+  | 0 1 |
+```
+
+3. Hacemos lo mismo con el 0, es decir, tapamos los números debajo de el y agarramos los restantes de la fila 2 y 3.
+
+```
+0 | -1 1 |
+  | 2 1  |
+```
+
+4. Lo mismo con el +2, ahora solo con los números restantes que no esten debajo de el.
+
+```
+2 | -1 3 |
+  | 2 0  |
+```
+
+5. Hacemos multiplicaciones cruzadas de los números dentro de la matriz, como al sacar determinante, solo que despues multiplicamos por el número de afuera.
+
+```
+1 | 3 1 | = 1 + 3 = 3, 0 * 1 = 0. ENTONCES: 1(3 - 0)
+  | 0 1 |
+```
+
+```
+0 | -1 1 | = -1 * 1 = -1, 2 * -1 = -2. ENTONCES: 0(-1-2)
+  | 2 1  |
+```
+
+```
+2 | -1 3 | = -1 * 0 = 0, 2 * -3 = -6. ENTONCES: 2(0-6)
+  | 2 0  |
+```
+
+6. Juntamos y resolvemos, respetando signos
+
+det(G) = 1(3-0) -0(-1-2) +2(0-6)
+det(G) = 3 - 12
+det(G) = -9
+
+---
+
+
+$$ G =
+\begin{pmatrix}
+1 & 0 & 2\\
+-1 & 3 & 1\\
+2 & 0 & 1\\
+\end{pmatrix}
+$$
+
 
 ### c) \( AB \)
 $$ AB = \begin{bmatrix}
