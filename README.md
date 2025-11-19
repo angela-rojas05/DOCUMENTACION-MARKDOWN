@@ -82,24 +82,70 @@ Si det(A) NO ES IGUAL A 0 , la matriz es no singular (tiene inversa)
 
 ---
 
-# Ejercicio 2: Calcula dada las matrices
+# Ejercicio 2: Usa Sarrus para calcular
 
-$$ A = \begin{bmatrix}
-2 & -1 \\
-3 & 4 
-\end{bmatrix}, \quad B = \begin{bmatrix}
-5 & 2 \\
--1 & 3 
-\end{bmatrix} $$
+### 1.-
 
-### a) \( A + B \)
-$$ A + B = \begin{bmatrix}
-2 + 5 & -1 + 2 \\
-3 + (-1) & 4 + 3
-\end{bmatrix} = \begin{bmatrix}
-7 & 1 \\
-2 & 7
-\end{bmatrix} $$
+$$ E =
+\begin{pmatrix}
+1 & 2 & 3\\
+0 & 1 & 4\\
+5 & 6 & 0\\
+\end{pmatrix}
+$$
+
+1. Se dibuja una linea recta debajo de nuestra matriz y posterior a eso solo copiamos la fila 1 y dos asi como estan.
+
+$$ E =
+\begin{pmatrix}
+1 & 2 & 3\\
+0 & 1 & 4\\
+5 & 6 & 0\\
+\\
+1 & 2 & 3\\
+0 & 1 & 4\\
+\end{pmatrix}
+$$
+
+2. Multiplicamos todas las diagonales 3x3 de arriba hacia abajo: 1 * 1 * 0 = 0, 0 * 6 * 3 = 0, 5 * 2 * 4 = 40. Total = 40
+   
+3. Multiplicamos todas las diagonales 3x3 de abajo hacia arriba: 5 * 1 * (-3) = -15, 1 * 6 * (-4) = -24, 0 * 2 * 0 = 0. Total = -39
+   
+4. Al final se hace la resta correspondiente, dejando de primer lugar el número positivo: 40 - 39 = 1
+
+5. det(E) = 1
+
+### 2.-
+
+$$ F =
+\begin{pmatrix}
+2 & -1 & 3\\
+1 & 4 & 0\\
+3 & 2 & -2\\
+\end{pmatrix}
+$$
+
+1. Se dibuja una linea recta debajo de nuestra matriz y posterior a eso solo copiamos la fila 1 y dos asi como estan.
+
+$$ F =
+\begin{pmatrix}
+2 & -1 & 3\\
+1 & 4 & 0\\
+3 & 2 & -2\\
+\\
+2 & -1 & 3\\
+1 & 4 & 0\\
+\end{pmatrix}
+$$
+
+2. Multiplicamos todas las diagonales 3x3 de arriba hacia abajo: 2 * 4 * (-2) = -16, 1 * 2 * 3 = 6, 3 * (-1) * 0 = 0. Total = -10
+
+3. Multiplicamos todas las diagonales 3x3 de abajo hacia arriba: 3 * 4 * (-3) = -36, 2 * 2 * 0 = 0, (-1) * 1 * (-2) * (-1) = -2. Total = -38
+
+4. Al final se hace la resta correspondiente: -10 - 38 = -48
+
+5. det(F) = -48
+
 
 ### b) \(2A - B \)
 
