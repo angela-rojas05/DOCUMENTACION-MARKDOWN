@@ -208,6 +208,98 @@ $$
 
 ---
 
+# Ejercicio 4: Dadas A y B, verifica que:
+
+- det(AB) = det(A) * det(B)
+- det(A^T) = det(A)
+
+### Primer caso
+
+$$ A =
+\begin{pmatrix}
+2 & 1 \\
+1 & 3 \\
+\end{pmatrix}
+$$
+
+$$ B =
+\begin{pmatrix}
+1 & 2 \\
+3 & 1 \\
+\end{pmatrix}
+$$
+
+### 1. Calculamos det(A)
+
+A =  
+| 2  1 |  
+| 1  3 |
+
+det(A) = (2)(3) - (1)(1) = 6 - 1 = **5**
+
+---
+
+### 2. Calculamos det(B)
+
+B =  
+| 1  2 |  
+| 3  1 |
+
+det(B) = (1)(1) - (2)(3) = 1 - 6 = **-5**
+
+---
+
+### 3. Calculamos AB
+
+AB =  
+| 2·1 + 1·3   ,   2·2 + 1·1 |  
+| 1·1 + 3·3   ,   1·2 + 3·1 |
+
+AB =  
+| 5   5 |  
+| 10  5 |
+
+---
+
+### 4. Calculamos det(AB)
+
+det(AB) = (5)(5) - (5)(10) = 25 - 50 = **-25**
+
+---
+
+### 5. Verificamos det(AB) = det(A) * det(B)
+
+det(A) * det(B) = 5 * (-5) = **-25**
+
+Por lo tanto det(AB) **SI ES IGUAL** a det(A) * det(B)
+
+---
+
+### Segundo caso 
+
+La matriz A es:
+
+| 2  1 |
+| 1  3 |
+
+Cuando calculamos la transpuesta Aᵀ, lo único que hacemos es intercambiar filas por columnas:
+
+Aᵀ =  
+| 2  1 |  
+| 1  3 |
+
+En este caso, la transpuesta es exactamente igual a la matriz original porque A es **simétrica**.  
+
+Como la matriz no cambia al transponerla, su determinante tampoco puede cambiar. Por lo tanto:
+
+- det(Aᵀ) = det(A)
+- det(Aᵀ) = 5
+
+Esto confirma la propiedad:  
+**El determinante de una matriz siempre es igual al determinante de su transpuesta.**
+
+---
+
 
 $$ G =
 \begin{pmatrix}
