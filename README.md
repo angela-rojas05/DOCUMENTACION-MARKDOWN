@@ -10,46 +10,75 @@
 Comprender de manera sólida el concepto de matrices y sus determinantes, incluyendo sus propiedades y la aplicación de operaciones básicas para su cálculo.
 
 ---
-# Ejercicio 1: Identifica el tipo de cada matriz
+# Ejercicio 1: Calcula los determinantes
 
-### a) 
+### 1.- 
 
-$$A = \begin{bmatrix}
-1 & 0 \\
-0 & 1 
-\end{bmatrix}$$
+$$ A =
+\begin{pmatrix}
+5 & 2 \\
+3 & 1 \\
+\end{pmatrix}
+$$
 
-Esta es una **matriz de identidad** porque en la diagonal principal contiene solo el número 1, mientras que los otros elementos serán el número 0.
+1.- Identifica los elementos de la matriz
+2.- Multiplica los números de la diagonal principal: 5 * 1 = 5
+3.- Multiplica los números de la diagonal secundaria: 3 * (-2) = -6
+4.- Restamos ambos resultados, poniendo el positivo primero: 5 - 6 = -1
+5.- Por lo tanto, el resultado es: det(A) = -1
 
-### b) 
+El determinante puede ser positivo, negativo o cero
 
-$$ B = \begin{bmatrix}
-3 & 0 & 0 \\
-0 & -2 & 0 \\
-0 & 0 & 5 
-\end{bmatrix}  $$
+### 2.-  
 
-La segunda es una **matriz diagonal** debido a que los elementos que estan dentro de ella son números aleatorios por asi decirlo, y el resto siempre serán el número 0.
+$$ B =
+\begin{pmatrix}
+-1 & 4 \\
+2 & -8 \\
+\end{pmatrix}
+$$
 
-### c)
+1.- Identifica los elementos de la matriz
+2.- Multiplica los números de la diagonal principal: (-1) * (-8) = +8
+3.- Multiplica los números de la diagonal secundaria: 2 * (-4) = -8
+4.- Restamos ambos resultados, poniendo el positivo primero: 8 - 8 = 0
+5.- Por lo tanto, el resultado es: det(B) = 0
 
-$$C = \begin{bmatrix}
-2 & 1 & 4 \\
-1 & 3 & 5 \\
-4 & 5 & 6 
-\end{bmatrix}  $$
+Si det(A) = 0 , la matriz es singular (no tiene inversa)
 
-Esta es una **matriz simétrica** porque las filas se pueden repetir en las columnas, es decir, estan los mismos números acomodados en el mismo orden solo que unos estan en una fila y otros en una columna.
+### 3.- 
 
-### d)
+$$ C =
+\begin{pmatrix}
+6 & 9 \\
+2 & 3 \\
+\end{pmatrix}
+$$
 
-$$ D = \begin{bmatrix}
-1 & 2 & 3 \\
-0 & 4 & 5 \\
-0 & 0 & 6 
-\end{bmatrix}  $$
+1.- Identifica los elementos de la matriz
+2.- Multiplica los números de la diagonal principal: 6 * 3 = 18
+3.- Multiplica los números de la diagonal secundaria: 2 * (-9) = -18
+4.- Restamos ambos resultados, poniendo el positivo primero: 18 - 18 = 0
+5.- Por lo tanto, el resultado es: det(C) = 0
 
-Corresponde a una **matriz triangular superior** ya que todos los elementos que se encuentran **por debajo** de la diagonal siempre serán ceros.
+Si det(A) = 0 , la matriz es singular (no tiene inversa)
+ 
+### 4.- 
+
+$$ D =
+\begin{pmatrix}
+0 & 5 \\
+-5 & 0 \\
+\end{pmatrix}
+$$
+
+1.- Identifica los elementos de la matriz
+2.- Multiplica los números de la diagonal principal: 0 * 0 = 0
+3.- Multiplica los números de la diagonal secundaria: (-5) * (5) * (-1) = 25
+4.- Restamos ambos resultados, poniendo el positivo primero: 25 - 0 = 25
+5.- Por lo tanto, el resultado es: det(D) = 25
+
+Si det(A) NO ES IGUAL A 0 , la matriz es no singular (tiene inversa)
 
 ---
 
