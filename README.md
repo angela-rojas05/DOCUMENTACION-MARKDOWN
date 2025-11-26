@@ -10,7 +10,38 @@
 El objetivo de esta tarea es documentar de manera clara y detallada el proceso de programación y las fórmulas utilizadas para realizar operaciones matriciales en Microsoft Excel, aplicadas a la manipulación de imágenes.
 
 ---
+
+# Secciones
+
+1. Como programar la hoja de excel.
+
+2. Escribir las 5 matrices (30x30).
+
+3. Documentar la formula de la transpuesta.
+
+4. Documentar la formula de la suma.
+
+5. Documentar la formula de la resta.
+
+6. Documentar la formula de la multiplicación escalar.
+
+7. Documentar la composición.
+
+---
+
 # Primera sección: Dibujos 
+
+```
+Abrir excel -->
+Nueva hoja blanca -->
+selecciono una cuadricula de 30 x 30 (A1: AD30) -->
+Resduzco el tamaño (Quedan cuadrados) -->
+Formato condicional -->
+Añado nueva regla -->
+Damos formato a las celdas (número) -->
+1 == Blanco y 0 == Negro -->
+Confirmamos.
+```
 
 ---
 
@@ -208,6 +239,22 @@ El objetivo de esta tarea es documentar de manera clara y detallada el proceso d
 
 # Segunda sección: Transpuestas
 
+```
+Nueva hoja blanca -->
+selecciono una cuadricula de 30 x 30 (A1: AD30) -->
+selecciono la barra de funciones --->
+
+Escribo: TRANSPONER(Hoja1!A1:AD30) -->
+
+Resduzco el tamaño (Quedan cuadrados) -->
+Formato condicional -->
+Añado nueva regla -->
+Damos formato a las celdas (número) -->
+1 == Blanco y 0 == Negro -->
+Confirmamos.
+
+```
+
 ---
 
 ### BELLOTA
@@ -393,6 +440,21 @@ El objetivo de esta tarea es documentar de manera clara y detallada el proceso d
 
 # Tercera sección: suma de matrices
 
+```
+Nueva hoja blanca -->
+selecciono una cuadricula de 30 x 30 (A1: AD30) -->
+selecciono la barra de funciones --->
+
+Escribo: =Hoja1!A1:AD30 + Hoja2!A1:AD30  -->
+
+Resduzco el tamaño (Quedan cuadrados) -->
+Formato condicional -->
+Añado nueva regla -->
+Damos formato a las celdas (número) -->
+0 == Blanco y 1 == Negro -->
+Confirmamos.
+
+```
 ---
 
 ### BELLOTA + PERRO
@@ -433,6 +495,21 @@ El objetivo de esta tarea es documentar de manera clara y detallada el proceso d
 
 # Sección 4: resta de matrices
 
+```
+Nueva hoja blanca -->
+selecciono una cuadricula de 30 x 30 (A1: AD30) -->
+selecciono la barra de funciones --->
+
+Escribo: =(Hoja1!A1:AD30)-(Hoja2!A1:AD30)  -->
+
+Resduzco el tamaño (Quedan cuadrados) -->
+Formato condicional -->
+Añado nueva regla -->
+Damos formato a las celdas (número) -->
+0 == Blanco y 1 == Negro -->
+Confirmamos.
+
+```
 ---
 
 ### BELLOTA - PERRO
@@ -473,6 +550,21 @@ El objetivo de esta tarea es documentar de manera clara y detallada el proceso d
 
 # Sección 5: multiplicación escalar
 
+```
+Nueva hoja blanca -->
+selecciono una cuadricula de 30 x 30 (A1: AD30) -->
+selecciono la barra de funciones --->
+
+Escribo: =(Hoja1!A1:AD30) * A31  -->
+
+Resduzco el tamaño (Quedan cuadrados) -->
+Formato condicional -->
+Añado nueva regla -->
+Damos formato a las celdas (número) -->
+0 == Blanco y 1 == Negro -->
+Confirmamos.
+
+```
 ---
 
 ### Scalar de BELLOTA 
@@ -513,6 +605,21 @@ El objetivo de esta tarea es documentar de manera clara y detallada el proceso d
 
 # Sección 6: composición
 
+```
+Nueva hoja blanca -->
+selecciono una cuadricula de 30 x 30 (A1: AD30) -->
+selecciono la barra de funciones --->
+
+Escribo: =Hoja1!A1:AD30 * $AF1 + Hoja2!A1:AD30 * $AF2  -->
+
+Resduzco el tamaño (Quedan cuadrados) -->
+Formato condicional -->
+Añado nueva regla -->
+Damos formato a las celdas (número) -->
+0 == Blanco y 1 == Negro -->
+Confirmamos.
+
+```
 ---
 
 ### Composición de BELLOTA Y PERRO
