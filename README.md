@@ -451,7 +451,7 @@ Resduzco el tamaño (Quedan cuadrados) -->
 Formato condicional -->
 Añado nueva regla -->
 Damos formato a las celdas (número) -->
-0 == Blanco y 1 == Negro -->
+1 == Blanco y 0 == Negro -->
 Confirmamos.
 
 ```
@@ -506,7 +506,7 @@ Resduzco el tamaño (Quedan cuadrados) -->
 Formato condicional -->
 Añado nueva regla -->
 Damos formato a las celdas (número) -->
-0 == Blanco y 1 == Negro -->
+1 == Blanco y 0 == Negro -->
 Confirmamos.
 
 ```
@@ -561,7 +561,7 @@ Resduzco el tamaño (Quedan cuadrados) -->
 Formato condicional -->
 Añado nueva regla -->
 Damos formato a las celdas (número) -->
-0 == Blanco y 1 == Negro -->
+1 == Blanco y 0 == Negro -->
 Confirmamos.
 
 ```
@@ -616,7 +616,7 @@ Resduzco el tamaño (Quedan cuadrados) -->
 Formato condicional -->
 Añado nueva regla -->
 Damos formato a las celdas (número) -->
-0 == Blanco y 1 == Negro -->
+1 == Blanco y 0 == Negro -->
 Confirmamos.
 
 ```
