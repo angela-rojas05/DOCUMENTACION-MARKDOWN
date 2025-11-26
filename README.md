@@ -1,5 +1,5 @@
 # Tecnológico de Softwaare
-## Actividad #16: Documentación de matrices
+## Actividad #20: Documentación de matrices con Git Branches
 ## Alumno: Ángela Yaritzi Rojas Brito
 ## Asignatura: Fundamentos de álgebra
 ## Maestro: Jorge Javier Pedroza Romero
@@ -7,10 +7,10 @@
 ---
 # Objetivo 
 
-Obtener un aprendizaje amplio y claro sobre las matrices, desde sus operaciones básicas hasta comprender los diferentes tipos.
+El objetivo de esta tarea es documentar de manera clara y detallada el proceso de programación y las fórmulas utilizadas para realizar operaciones matriciales en Microsoft Excel, aplicadas a la manipulación de imágenes.
 
 ---
-# Ejercicio 1: Identifica el tipo de cada matriz
+# Primera sección: Dibujos 
 
 ### a) 
 
