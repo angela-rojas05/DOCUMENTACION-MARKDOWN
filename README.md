@@ -400,3 +400,62 @@ $$
 Sistema incompatible: sin solución.
 
 ---
+
+### 2.3 Sistema (c)
+
+$$
+\begin{cases}
+x + y = 3\\
+x - y = 1
+\end{cases}
+$$
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 1 & 3\\
+1 & -1 & 1
+\end{array}
+\right]
+$$
+
+Paso 1:
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 1 & 3\\
+0 & -2 & -2
+\end{array}
+\right]
+$$
+
+Normalizar:
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 1 & 3\\
+0 & 1 & 1
+\end{array}
+\right]
+$$
+
+Eliminar \(y\):
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 0 & 2\\
+0 & 1 & 1
+\end{array}
+\right]
+$$
+
+Solución:
+
+$$
+x=2,\quad y=1.
+$$
+
+---
