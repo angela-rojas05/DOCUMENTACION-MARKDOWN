@@ -370,3 +370,33 @@ Sistema con infinitas soluciones.
 
 ---
 
+### 2.2 Sistema (b)
+
+$$
+\begin{cases}
+x + y = 3\\
+2x + 2y = 7
+\end{cases}
+$$
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 1 & 3\\
+2 & 2 & 7
+\end{array}
+\right]
+$$
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 1 & 3\\
+0 & 0 & 1
+\end{array}
+\right]
+$$
+
+Sistema incompatible: sin solución.
+
+---
