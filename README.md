@@ -201,6 +201,72 @@ $$
 
 ---
 
+### 1.3 Método de la matriz inversa
+
+Se tiene:
+
+$$
+A =
+\begin{pmatrix}
+1 & 1 & 1\\
+2 & -1 & 1\\
+1 & 2 & -1
+\end{pmatrix}.
+$$
+
+Determinante por Sarrus:
+
+$$
+\det(A) = 1(-1)(-1) + 1(1)(1) + 1(2)(2)
+          - 1(-1)(1) - 1(2)(-1) - 1(1)(2)
+        = 7.
+$$
+
+Como \(\det(A)\neq 0\), la inversa existe:
+
+$$
+A^{-1} = \frac{1}{7}
+\begin{pmatrix}
+-1 & 3 & 2\\
+3 & -2 & 1\\
+5 & -1 & -3
+\end{pmatrix}.
+$$
+
+Multiplicación \(A^{-1}\mathbf{b}\):
+
+$$
+A^{-1}\mathbf{b}
+= \frac{1}{7}
+\begin{pmatrix}
+-1 & 3 & 2\\
+3 & -2 & 1\\
+5 & -1 & -3
+\end{pmatrix}
+\begin{pmatrix}
+6\\3\\2
+\end{pmatrix}.
+$$
+
+Producto:
+
+$$
+\begin{pmatrix}
+7\\14\\21
+\end{pmatrix}
+$$
+
+Aplicar \(\tfrac{1}{7}\):
+
+$$
+\mathbf{x}=
+\begin{pmatrix}
+1\\2\\3
+\end{pmatrix}.
+$$
+
+---
+
 
 
 
