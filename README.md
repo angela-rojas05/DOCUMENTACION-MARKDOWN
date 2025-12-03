@@ -267,6 +267,71 @@ $$
 
 ---
 
+### 1.4 Regla de Cramer
+
+Matrices:
+
+$$
+A =
+\begin{pmatrix}
+1 & 1 & 1\\
+2 & -1 & 1\\
+1 & 2 & -1
+\end{pmatrix},\quad
+\mathbf{b} =
+\begin{pmatrix}
+6\\3\\2
+\end{pmatrix},
+$$
+
+Determinante:
+
+$$
+D = 7
+$$
+
+Matrices modificadas:
+
+$$
+A_x =
+\begin{pmatrix}
+6 & 1 & 1\\
+3 & -1 & 1\\
+2 & 2 & -1
+\end{pmatrix},
+$$
+
+$$
+A_y =
+\begin{pmatrix}
+1 & 6 & 1\\
+2 & 3 & 1\\
+1 & 2 & -1
+\end{pmatrix},
+$$
+
+$$
+A_z =
+\begin{pmatrix}
+1 & 1 & 6\\
+2 & -1 & 3\\
+1 & 2 & 2
+\end{pmatrix}.
+$$
+
+Determinantes:
+
+$$
+D_x=7,\quad D_y=14,\quad D_z=21
+$$
+
+Solución:
+
+$$
+x=1,\quad y=2,\quad z=3.
+$$
+
+---
 
 
 
