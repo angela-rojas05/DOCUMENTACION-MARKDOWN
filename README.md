@@ -333,5 +333,40 @@ $$
 
 ---
 
+## Ejercicio 2. Clasificación de sistemas 
 
+### 2.1 Sistema (a)
+
+$$
+\begin{cases}
+x + y = 3\\
+2x + 2y = 6
+\end{cases}
+$$
+
+Matriz aumentada:
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 1 & 3\\
+2 & 2 & 6
+\end{array}
+\right]
+$$
+
+Resultado:
+
+$$
+\left[
+\begin{array}{cc|c}
+1 & 1 & 3\\
+0 & 0 & 0
+\end{array}
+\right]
+$$
+
+Sistema con infinitas soluciones.
+
+---
 
